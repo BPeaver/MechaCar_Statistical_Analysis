@@ -46,5 +46,21 @@ We can see that Lot 1 and Lot 2 have means at or near 1500 PSI and p-Values that
 
 ## Study Design: MechaCar vs Competition
 
+But how does MechaCar stack up to it's competitors? What would consumers look for when making a purchasing decision? Below is the outline of a potential study comparing MechaCar and other brands.
+
+### Metrics and Data
+MPG (City and Highway): Independent Variable
+Current Sale Price: Dependent Variable
+Resale Price: Dependant Variable
+Safety Rating: Independent Variable
+Maintenance costs: Independent Variable
+
+### Hypotheses 
+Null Hypothesis (Ho): MechaCar is priced appropriately based on its performance in key data groups
+Alternative Hypothesis (Ha): MechaCar is not priced appropriately based on its performance in key data groups
+
+### Testing
+Multiple Linear Regression: Determines the metrics that have the highest correlation with selling price (Current and Resale)
+T-Tests: To help confirm or reject our null hypothesis
 
 
