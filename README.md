@@ -8,7 +8,9 @@ The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCar
 
 ### Summary of Linear Regression Model
 1: Looking at the above linear regression model, we can see that Vehicle Length and Ground Clearance are the only two variables that have significant effect on the MechaCar prototype's MPG rating. The remaining variables (Vehicle Weight, Spoiler Angle, and AWD) have random amounts of variance with the data.
+
 2: The slope of this linear regression model is not zero, assuming a significance levle of 0.05%, due to our p-Value being 5.35e-11. This is sufficient to reject our null hypothesis.
+
 3: Using our r-squared value of 0.7149, we can assume that approximately 71% of future MPG predicitions can be determined with this model. This means that this regression model predicts MechaCar prototype MPG relatively effectively. If we remove the other variables (Vehicle Weight, Spoiler Angle, and AWD), our r-squared value drops to 0.674, a minor reduction of 4% reliability (see below figure).
 
 ![eliminate insignificants deliverable 1](https://github.com/BPeaver/MechaCar_Statistical_Analysis/blob/main/Images/eliminate%20insignificants%20deliverable%201.png)
